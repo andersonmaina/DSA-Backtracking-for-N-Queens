@@ -1,7 +1,7 @@
 import tkinter as tk
 
 class NQueensVisualizer:
-    def _init_(self, N):
+    def __init__(self, N):
         self.N = N
         self.window = tk.Tk()
         self.window.title(f"{N}-Queens Problem")
@@ -9,6 +9,7 @@ class NQueensVisualizer:
         self.canvas.pack()
         self.board = [[0] * N for _ in range(N)]
         self.cell_size = 600 // N
+        self.draw_board()  
         self.solve_n_queens()
 
     def draw_board(self):
@@ -31,7 +32,7 @@ class NQueensVisualizer:
         for i, j in zip(range(row, -1, -1), range(col, -1, -1)):
             if self.board[i][j] == 1:
                 return False
-        for i, j in zip(range(row, self.N, 1), range(col, -1, -1)):
+        for i, j in zip(range(row, self.N), range(col, -1, -1)):
             if self.board[i][j] == 1:
                 return False
         return True
@@ -57,7 +58,8 @@ class NQueensVisualizer:
         else:
             print("Solution found")
 
-if _name_ == "_main_":
-    N = 8  # Change this value for different N
+if __name__ == "__main__":
+    N = 8  # N values
     visualizer = NQueensVisualizer(N)
     visualizer.window.mainloop()
+
