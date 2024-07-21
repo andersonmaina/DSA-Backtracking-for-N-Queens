@@ -6,7 +6,7 @@ Install python from officiall website.
 
 Create  new folder in the desktop.
 
-CD into the folder nd run "git clone https://github.com/andersonmaina/DSA-Backtracking-for-N-Queens/tree/main"
+CD into the folder nd run "git clone https://github.com/andersonmaina/DSA-Backtracking-for-N-Queens.git"
 
 Click on the folder path and type cmd and press 'Enter' . 
 
