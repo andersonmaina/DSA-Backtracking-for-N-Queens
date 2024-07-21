@@ -2,7 +2,7 @@ This repository features a comprehensive implementation of backtracking algorith
 
 <------HOW TO RUN----->
 
-Install python from officil website.
+Install python from officiall website.
 
 Create  new folder in the desktop.
 
