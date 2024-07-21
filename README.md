@@ -6,15 +6,15 @@ Install python from officiall website.
 
 Create  new folder in the desktop.
 
-CD into the folder nd run "git clone https://github.com/andersonmaina/DSA-Backtracking-for-N-Queens.git"
+Open cmd and cd into the folder then run "git clone https://github.com/andersonmaina/DSA-Backtracking-for-N-Queens.git"
 
-Click on the folder path and type cmd and press 'Enter' . 
+Cd into the newly created folder. 
 
 Run the commands below.
 
 python -u "path_to_your_folder\DSA-Backtracking-for-N-Queens\nqueens.py"
 
-To see the visualization of the algorithm run the command below(You need to have tkinter python module installed, run python -m tkinter to check if its present).
+To see the visualization of the algorithm run the command below(You need to have tkinter python module installed, run 'python -m tkinter' to check if its present).
 
 python -u "path_to_your_folder\DSA-Backtracking-for-N-Queens\visualizer.py"
 
